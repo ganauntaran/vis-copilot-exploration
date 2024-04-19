@@ -13,7 +13,7 @@ export default function MyComponent() {
           <div className="self-center text-base leading-6 text-black">
             Employee/Teacher/Lecturer
           </div>
-          <div className="justify-center text-center px-4 py-3 mt-2 text-sm font-bold leading-4 text-white bg-indigo-500 rounded-md max-md:px-8">
+          <div className="justify-center px-4 py-3 mt-2 text-sm font-bold leading-4 text-white bg-indigo-500 rounded-md max-md:px-8">
             Login with BINUSIAN Account
           </div>
         </div>

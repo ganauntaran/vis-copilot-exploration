@@ -15,7 +15,7 @@ const Button: React.FC<ButtonProps> = ({ children, className }) => {
   );
 };
 
-const AccountSettingsPage: React.FC = () => {
+const MyComponent: React.FC = () => {
   return (
     <div className="flex flex-col justify-center bg-gray-100">
       <div className="flex flex-col w-full max-md:max-w-full">
@@ -26,8 +26,8 @@ const AccountSettingsPage: React.FC = () => {
                 <img
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/5b3cad048cf2d8db79a1cc204010da24ac17a653e28fd118f5fb2301a1a65490?apiKey=d9be0c21d3f04234b0773d24d90d90a3&"
-                  alt="Logo"
                   className="aspect-[1.85] w-[68px]"
+                  alt="Logo"
                 />
               </div>
               <div className="px-4 pt-2.5 pb-3 text-base font-semibold text-center text-white rounded-3xl bg-white bg-opacity-10">
@@ -49,8 +49,8 @@ const AccountSettingsPage: React.FC = () => {
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/c74fd41b018cf61deab45fd459f3f44650a6d47b85fbb9e8001ff6584d4e812b?apiKey=d9be0c21d3f04234b0773d24d90d90a3&"
-                alt="User Avatar"
                 className="shrink-0 w-10 aspect-square"
+                alt="User Avatar"
               />
             </div>
           </div>
@@ -66,8 +66,8 @@ const AccountSettingsPage: React.FC = () => {
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/34c11d5fcda6cfa1ae179c870af94b4c0c9ae13f9dfee95f872e257bf59526fe?apiKey=d9be0c21d3f04234b0773d24d90d90a3&"
-              alt="Empty State Illustration"
               className="max-w-full aspect-[0.85] w-[136px]"
+              alt="Empty State Illustration"
             />
             <h2 className="mt-6 text-2xl font-bold leading-7">
               Daftar admin tidak tersedia
@@ -85,4 +85,4 @@ const AccountSettingsPage: React.FC = () => {
   );
 };
 
-export default AccountSettingsPage;
+export default MyComponent;

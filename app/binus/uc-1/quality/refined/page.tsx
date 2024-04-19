@@ -49,7 +49,7 @@ const LoginCard: React.FC = () => {
 
 const LoginPage: React.FC = () => {
   return (
-    <main className="flex justify-center items-center px-16 py-20 h-screen max-md:px-5">
+    <main className="flex justify-center items-center px-16 py-20 h-screen max-md:px-5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
       <LoginCard />
     </main>
   );
