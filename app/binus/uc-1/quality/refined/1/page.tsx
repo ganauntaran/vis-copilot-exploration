@@ -18,7 +18,7 @@ const Image: React.FC<ImageProps> = ({ src, alt }) => {
 
 const LoginButton: React.FC = () => {
   return (
-    <button className="w-full px-4 py-3 mt-2 text-sm font-bold leading-4 text-white bg-indigo-500 rounded-md">
+    <button className="justify-center px-4 py-3 mt-2 text-sm font-bold leading-4 text-white bg-indigo-500 rounded-md max-md:px-8">
       Login with BINUSIAN Account
     </button>
   );
@@ -49,7 +49,7 @@ const LoginCard: React.FC = () => {
 
 const LoginPage: React.FC = () => {
   return (
-    <main className="flex justify-center items-center px-16 py-20 h-screen max-md:px-5 bg-gradient-to-r from-[#1D99D7] to-[#843A8D]">
+    <main className="flex justify-center items-center px-16 py-20 h-screen max-md:px-5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
       <LoginCard />
     </main>
   );

@@ -1,17 +1,19 @@
-import * as React from "react";
+import React from "react";
+import Image from "next/image";
 
 interface ImageProps {
   src: string;
   alt: string;
 }
 
-const Image: React.FC<ImageProps> = ({ src, alt }) => {
+const CustomImage: React.FC<ImageProps> = ({ src, alt }) => {
   return (
-    <img
-      loading="lazy"
+    <Image
       src={src}
       alt={alt}
-      className="self-center max-w-full aspect-[1.92] w-[100px]"
+      width={100}
+      height={52}
+      className="self-center max-w-full aspect-[1.92]"
     />
   );
 };
@@ -38,7 +40,7 @@ const LoginForm: React.FC = () => {
 const LoginCard: React.FC = () => {
   return (
     <div className="flex flex-col justify-center items-center px-4 py-12 max-w-full bg-white rounded-md w-[400px]">
-      <Image
+      <CustomImage
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/efb02bea3345c872486d184b34ba45550ef6a5f5889096dca4122aea2aa706f4?apiKey=d9be0c21d3f04234b0773d24d90d90a3&"
         alt="Company logo"
       />
