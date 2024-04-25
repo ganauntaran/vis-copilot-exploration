@@ -68,7 +68,7 @@ function NipField({ nip }: NipFieldProps) {
   )
 }
 
-function MyComponent() {
+export default function MyComponent() {
   const fields = [
     { label: "Udomain", value: "John_Doe" },
     { label: "Nama", value: "John Doe" },
